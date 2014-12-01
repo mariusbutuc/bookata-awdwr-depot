@@ -37,4 +37,8 @@ gem 'spring',        group: :development
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+gem 'pry', group: [:development, :test]
 
+group :development do
+  gem 'minitest-colorize', git: 'https://github.com/ysbaddaden/minitest-colorize'
+end
